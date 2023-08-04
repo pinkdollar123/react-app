@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Cup({guest}) {
-    return <h2> Teac cup for guest #{guest}</h2>
+    return <h2> Tea cup for guest #{guest}</h2>
 }
 
 function Tea() {

@@ -13,6 +13,8 @@ export default function AddArray() {
         value={name}
         onChange={e => setName(e.target.value)}
       />
+
+      {/* Button for Adding */}
       <button onClick={() => {
         setArtists([
           ...artists,
@@ -26,6 +28,8 @@ export default function AddArray() {
         //   ]);
 
       }}>Add</button>
+
+      {/* Display for mapping the array of artist name */}
       <ul>
         {artists.map(artist => (
           <li key={artist.id}>{artist.name}</li>
